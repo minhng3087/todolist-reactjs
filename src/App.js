@@ -5,17 +5,17 @@ import TodoForm from "./TodoForm";
 function App() {
   const [todos, setTodos] = useState([
     {
-      text: "Upload the blog posts before tomorrow",
+      text: "go to the movie",
       hasCompleted: false,
     },
 
     {
-      text: "Go to shop and buy shampoo",
+      text: "go shopping",
       hasCompleted: false,
     },
 
     {
-      text: "Finish Season 3 of Flash",
+      text: "go to hotel",
       hasCompleted: false,
     },
   ]);
